@@ -13,6 +13,7 @@ $(call inherit-product, device/oneplus/guacamoleb/device.mk)
 
 # Inherit some common ZenX-OS stuff.
 $(call inherit-product, vendor/zenx/config/common_full_phone.mk)
+TARGET_INCLUDE_WIFI_EXT := true
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2340
 
