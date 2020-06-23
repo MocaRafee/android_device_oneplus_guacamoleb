@@ -15,8 +15,6 @@ $(call inherit-product, device/oneplus/guacamoleb/device.mk)
 $(call inherit-product, vendor/zenx/config/common_full_phone.mk)
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 2340
-PRODUCT_PACKAGES += \
-    GalleryGoPrebuilt
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := zenx_guacamoleb
