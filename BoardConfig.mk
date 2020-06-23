@@ -7,6 +7,7 @@
 
 BOARD_VENDOR := oneplus
 DEVICE_PATH := device/oneplus/guacamoleb
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := OnePlus7
