@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_guacamoleb.mk
+    $(LOCAL_DIR)/zenx_guacamoleb.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_guacamoleb-user \
-    aosp_guacamoleb-userdebug \
-    aosp_guacamoleb-eng
+    zenx_guacamoleb-user \
+    zenx_guacamoleb-userdebug \
+    zenx_guacamoleb-eng
