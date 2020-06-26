@@ -5,4 +5,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_guacamoleb.mk
+    $(LOCAL_DIR)/ancient_guacamoleb.mk
+
+COMMON_LUNCH_CHOICES := \
+    ancient_guacamoleb-userdebug \
+    ancient_guacamoleb-eng
